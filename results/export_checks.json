@@ -1,0 +1,16 @@
+{
+  "tests": 113,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "reported_seconds": 38.781,
+  "core_source_files_unchanged": true,
+  "launcher_help_passed": true,
+  "launcher_import_passed": true,
+  "training_executed": false,
+  "launcher_matches_both_recorded_train_configs": true,
+  "first_submission_reconstructed_numeric_exact": true,
+  "second_submission_reconstructed_byte_exact": true,
+  "notebook_code_cells_syntax_valid": true,
+  "notebook_full_gpu_run_repeated_for_export": false
+}

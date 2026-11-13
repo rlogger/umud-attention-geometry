@@ -1,0 +1,18 @@
+[
+  {
+    "public_score": 0.23276,
+    "sha256": "2dc38e0520777be9eab13b9a4a0501831f976d66200234061ae30e72428ca8ae",
+    "observed_completed_utc": "2026-11-12T09:49:18.961006+00:00",
+    "kaggle_url": "https://www.kaggle.com/competitions/umud-challenge-muscle-architecture-in-ultrasound-data/submissions",
+    "file": "submissions/attention_hybrid20.csv",
+    "leaderboard": "public"
+  },
+  {
+    "public_score": 0.2328,
+    "sha256": "1e291c32ba67c8e3cdfa6123aa0649f45415e6636f5ad73581630570e6e3e62e",
+    "observed_completed_utc": "2026-11-12T11:09:56.207796+00:00",
+    "kaggle_url": "https://www.kaggle.com/competitions/umud-challenge-muscle-architecture-in-ultrasound-data/submissions",
+    "file": "submissions/attention_hybrid20_trimmed_fl.csv",
+    "leaderboard": "public"
+  }
+]

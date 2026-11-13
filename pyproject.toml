@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "umud-attention"
+version = "0.1.0"
+description = "Attention U-Net and calibrated geometry experiment for UMUD"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4", "scipy>=1.11,<2", "Pillow>=10,<13", "torch>=2.5,<3", "torchvision>=0.20,<0.30"]
+
+[tool.setuptools.packages.find]
+include = ["umud_attention*"]

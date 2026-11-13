@@ -1,0 +1,32 @@
+{
+  "source": "Actual Kaggle competition download",
+  "scope": "Fold-0 segmentation validation",
+  "hardware": "NVIDIA A100-SXM4-40GB",
+  "reports": [
+    {
+      "task": "apo",
+      "fold": 0,
+      "best_validation_dice": 0.8273158134732927,
+      "train_images": 698,
+      "validation_images": 350,
+      "metric_scope": "segmentation overlap, NOT UMUD leaderboard score",
+      "manifest_sha256": "9398265da20b503d1d8693774d98f8d45557d0a65486fac483b1edbf639a8c05",
+      "checkpoint": "checkpoints/apo_fold0/best.pt"
+    },
+    {
+      "task": "fasc",
+      "fold": 0,
+      "best_validation_dice": 0.28704711178029546,
+      "train_images": 1838,
+      "validation_images": 918,
+      "metric_scope": "segmentation overlap, NOT UMUD leaderboard score",
+      "manifest_sha256": "9398265da20b503d1d8693774d98f8d45557d0a65486fac483b1edbf639a8c05",
+      "checkpoint": "checkpoints/fasc_fold0/best.pt"
+    }
+  ],
+  "source_archive_sha256": "808cc1cf284d7c898b2626c03950d9ba8c0317eeb78883773ea3b1ae6c0a27a1",
+  "leaderboard_score": null,
+  "elapsed_seconds": 3253.9323823959994,
+  "split_limitation": "Exact duplicates and horizontal flips grouped; other transforms, near duplicates, and subject independence unverified",
+  "resolution_note": "Apo 512; fasc 768 preserves thin supplied mask fragments. Dice across resolutions is not directly comparable."
+}
